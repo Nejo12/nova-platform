@@ -1,69 +1,38 @@
-# Tessnova Preliminary Brand Clearance
+# Tessnova Brand Clearance Record
 
-**Status:** Conditional go for M0 planning and validation only  
+**Status:** Proceed — Founder-approved, non-blocking  
 **Date:** 2026-10-06
 
 ## Confirmed asset
 
 - `tessnova.de` has been purchased and is active.
 - Auto-renewal is enabled.
-- The current Hostinger screen shows an expiry date of 2027-11-01.
 
-## Exact / similar commercial uses found
+## Known similar commercial use
 
-### Tessnova
-A U.S. commercial supplier using the exact name **Tessnova** appears in public supplier directories. Its visible activity does not appear to be a software/platform brand from the evidence reviewed so far.
+**Tesnova Solutions** operates in software, web, mobile and AI services using the domain `tesnova.com`.
 
-### Tesnova Solutions
-A software and AI/web-development company actively trades as **Tesnova Solutions** at `tesnova.com`.
+The Founder reviewed this similarity and explicitly decided to proceed with **Tessnova**, considering the brands sufficiently distinct for the current product strategy.
 
-This is more relevant than the unrelated exact-name supplier because:
+## Project decision
 
-- the spelling differs by only one letter;
-- pronunciation is likely to be similar;
-- it operates in software, websites, apps and AI;
-- Tessnova will also be a software/SaaS product.
+The Tesnova similarity is **not a blocker** for:
+- product planning;
+- Figma design;
+- GitHub implementation;
+- customer validation;
+- prototypes;
+- landing pages;
+- Tessnova product development.
 
-This does **not** establish trademark infringement or mean Tessnova must be abandoned, but it materially raises the importance of a proper trademark similarity review before commercial launch.
+## Future legal due diligence
 
-### Other uses
-A European furniture collection uses the name Tesnova, and a Spanish company called Tesnova Shoes exists. These appear commercially remote from Tessnova's intended software/services category.
+If/when Tessnova is filed as a registered trademark or receives material brand investment, perform appropriate German/EU trademark due diligence and obtain professional advice where useful.
 
-## Domain decision
+This legal step is intentionally separate from the current product decision and must not silently re-open the naming debate unless new material evidence appears.
+
+## Domain strategy
 
 `tessnova.de` is secured and should remain the primary German validation domain.
 
-Do not buy a large defensive domain portfolio yet. Revisit additional domains after trademark similarity review and M1 validation.
-
-## Current recommendation
-
-**Conditional go**
-
-Continue using Tessnova for:
-- M0/M1 planning;
-- Figma;
-- GitHub;
-- customer interviews;
-- prototypes;
-- validation landing pages.
-
-Do not yet:
-- file a trademark;
-- make material brand/print spend;
-- sign long-term marketing commitments;
-- treat the name as legally cleared.
-
-## Remaining formal checks
-
-- EUIPO / TMview search for TESSNOVA and similar marks
-- DPMAregister search for TESSNOVA and similar marks
-- phonetic/similarity review for TESNOVA
-- Nice-class analysis for intended software/SaaS/business services
-- German/EU company-name conflict review
-- professional trademark counsel if the database search reveals relevant marks
-
-## Decision threshold
-
-If no conflicting German/EU mark with materially overlapping software/SaaS/services scope is found, move from **conditional go** to **commercial go**.
-
-If a materially similar earlier mark is found in relevant classes, obtain professional trademark advice before further brand investment.
+Additional defensive domains are optional and should be considered only when commercially useful.
