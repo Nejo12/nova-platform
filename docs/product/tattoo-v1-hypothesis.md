@@ -56,7 +56,7 @@ Top jobs are:
 
 ### Books
 
-Proposed #12 definition for Founder review:
+Founder-approved #12 definition:
 
 - OPEN = accepting new Custom Requests;
 - CLOSED = not accepting new Custom Requests;
@@ -81,7 +81,7 @@ Required V1 qualification information:
 
 Budget remains optional.
 
-Proposed #12 lifecycle:
+Founder-approved #12 lifecycle:
 
 `SUBMITTED → IN_REVIEW ↔ NEEDS_INFO → ACCEPTED | DECLINED`
 
@@ -91,7 +91,7 @@ with requester `WITHDRAWN` paths before acceptance.
 
 ### Flash
 
-Proposed #12 states:
+Founder-approved #12 states:
 
 `AVAILABLE → HOLD_PENDING_PAYMENT → RESERVED → BOOKED`
 
