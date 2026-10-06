@@ -1,97 +1,129 @@
 # M1 Evidence Synthesis
 
-**Round:** 1  
-**Participants:** TAT-01, EVT-01, SPK-01  
-**Status:** Sufficient for directional vertical selection; not statistical market proof.
+**Round:** 2  
+**Participants:** TAT-01, TAT-02, EVT-01, EVT-02, SPK-01, SPK-02  
+**Status:** Strong enough for evidence-backed launch-vertical selection.
 
-## High-confidence cross-vertical findings
+## Repeated cross-participant patterns
 
-### 1. The public page is not the product by itself
+### Tattoo — repeated twice
 
-All three professionals described value in **qualification and workflow**, not generic site-building.
+Both participants independently described:
 
-- Tattoo: avoid weak DMs and unsafe flash reservation.
-- Events: qualify date/venue/guest-count/budget before proposal effort.
-- Speakers: centralize current assets and collect event constraints before email back-and-forth.
+- Instagram as the main acquisition channel;
+- serious enquiries mixed with friends, price-checkers and social noise;
+- repetitive qualification around placement, size, references and colour;
+- books status communicated via bio/Stories but still ignored;
+- PayPal deposits;
+- flash claimed manually;
+- **flash double-booking occurring twice**;
+- demand for a better-than-Linktree experience;
+- rejection of pages that feel generic or identical.
 
-### 2. Generic presentation is actively rejected
+This is the strongest repeated operational failure in the research.
 
-- Tattoo rejects a page that looks like every other artist.
-- Event professional explicitly rejects dull/generic/AI-look software.
-- Speaker accepts a shared template, but still needs a personal-domain-quality professional presence.
+### Events — repeated twice
 
-Tessnova must combine strong defaults with vertical-specific visual credibility.
+Both participants independently described:
 
-### 3. “Availability” is three different domain concepts
+- Instagram + referral-driven discovery;
+- manual calendar checking;
+- date, venue, guest count and budget as essential qualification;
+- starting-price guidance without publishing full pricing;
+- budget mismatch discovered too late;
+- brochure/PDF workflows;
+- drop-off before proposal/contract;
+- strong visual-quality requirements.
 
-| Vertical | Actual concept |
-|---|---|
-| Tattoo | Books status; guest-spot note |
-| Events | Event date + venue + operational collision |
-| Speakers | Event constraints: date, city, travel, audience |
+### Speakers — repeated twice
 
-Do not build a generic availability module from these three nouns.
+Both participants independently described:
 
-### 4. Public pricing rules differ materially
+- LinkedIn/referral-heavy discovery;
+- repeated sending of bios/photos/video/talk descriptions;
+- stale or fragmented media-kit assets;
+- direct bookings as important even when agencies exist;
+- professional one-link presence as core value;
+- less need for a transaction-heavy website workflow.
 
-| Vertical | Pricing preference |
-|---|---|
-| Tattoo | Minimum/public floor useful |
-| Events | Starting floor useful; full pricing private |
-| Speakers | Fee should remain private |
-
-This is evidence for vertical rules rather than a generic price-table capability.
-
-### 5. Payments have different roles
-
-- Tattoo: deposit is tightly coupled to flash/request state and can prevent double-selling.
-- Events: deposit is part of booking/proposal/contract workflow; 50% is normal in the participant's process.
-- Speakers: invoice is the commercial mechanism; website payment is not core.
-
-### 6. No participant asked for a public slot picker
-
-Scheduling/calendaring should not be assumed to be V1.
-
-## Evidence table
-
-| Evidence | Vertical | Severity | Existing workaround | Tessnova implication | Confidence |
-|---|---|---:|---|---|---|
-| Two people paid for same flash before claimed state updated | Tattoo | 5 | Instagram caption + PayPal | Flash hold/reservation state must be atomic | Strong |
-| Weak DMs require multiple messages before suitability known | Tattoo | 4 | Manual DM/email qualification | Fixed custom-request flow | Strong |
-| Books status and waitlist get stale/lost | Tattoo | 4 | Bio + Stories + saved DMs | Books state + optional later waitlist | Strong |
-| Budget mismatch wastes florist enquiry effort | Events | 4 | PDF sent after manual qualification | Date/venue/guest/budget qualification | Strong |
-| Slow response after event weekends loses leads | Events | 4 | Email/manual quote | Faster structured intake + follow-up | Medium-strong |
-| Speaker assets live across site/PDF/Drive and go stale | Speakers | 3 | Manual email attachments/links | Current one-pager + asset hub | Strong |
-| Event constraints arrive late for speaker | Speakers | 3 | Multi-email back-and-forth | Fixed event-enquiry flow | Strong |
-
-## Jobs-to-be-done
+## Vertical-specific jobs
 
 ### Tattoo
-When someone finds my work online, I want them to understand whether I am booking, send a usable request, or safely reserve flash with a deposit, so I do not spend my time qualifying bad DMs or accidentally sell the same design twice.
+
+**Core job:** turn social discovery into a qualified request or safe flash reservation without losing leads or double-selling a design.
+
+Candidate loop:
+
+```text
+Instagram
+  ↓
+Tessnova bio link
+  ↓
+Work + books + flash
+  ↓
+Custom request OR flash hold
+  ↓
+Deposit
+  ↓
+Artist home
+```
 
 ### Events
-When a couple wants to contact me, I want them to provide the date, venue, guest count and realistic budget before I prepare material or a proposal, so I spend time only on viable weddings.
+
+**Core job:** qualify date, venue, guest count and realistic budget before proposal work.
 
 ### Speakers
-When an organizer evaluates me, I want one current place for talks, reel, bios, photos and event constraints, so I do not repeatedly send stale assets across multiple emails.
 
-## Provisional vertical recommendation
+**Core job:** keep current professional assets in one place and capture event constraints before repetitive email exchange.
 
-**Tattoo first. Events second stress-test. Speakers later.**
+## Architecture evidence
 
-Tattoo has the strongest distinctive stateful loop:
-**bio link → books/work/flash → qualified request or flash hold → deposit → artist dashboard.**
+The data strongly rejects premature shared abstractions.
 
-That loop creates recurring operational value and switching cost beyond a static site.
+### "Availability" is not one object
 
-## What this evidence does NOT prove
+- Tattoo: books status / guest spot
+- Events: date + venue + operational logistics
+- Speakers: date + city + travel constraints
 
-- total addressable market size;
-- broad willingness to pay across the vertical;
-- exact pricing;
-- final payment architecture;
-- final theme preferences;
-- whether Stripe Connect is acceptable;
-- retention over time.
+### "Pricing" is not one public pattern
 
-These should be tested in M2/M3 prototype and concierge validation rather than requiring 20 interviews before progress.
+- Tattoo: public minimum useful
+- Events: starting floor useful
+- Speakers: fee visibility can be undesirable
+
+### "Payments" do not have one role
+
+- Tattoo: reservation-state critical
+- Events: booking/proposal/contract flow
+- Speakers: invoicing remains primary
+
+## Product decision
+
+**Recommended launch vertical: Tattoo**
+
+Why:
+- repeated severe operational pain;
+- clear social-distribution wedge;
+- a narrow V1 is possible;
+- strong one-page fit;
+- stateful workflow creates more defensibility than a static professional profile;
+- two independent participants reported the same rare, costly flash double-booking failure.
+
+**Recommended second vertical / abstraction stress-test: Events**
+
+## Confidence
+
+- Vertical direction: **Medium-high**
+- Exact pricing: **Medium-low**
+- Payment implementation model: **Low**
+- Retention hypothesis: **Medium-low**
+- Theme/design direction: **Medium**
+
+## Next research mode
+
+Do not block progress on reaching 20 interviews.
+
+Further responses should still be collected, but the highest-value next validation is a concrete Tattoo concept/prototype shown to real artists.
+
+M2 should define the Tattoo product tightly before implementation.
