@@ -2,22 +2,41 @@
 
 **Status:** M2 working hypothesis — not yet approved V1 specification
 
+Issue #11 customer/outcome definition:
+`docs/product/tattoo-v1-icp-jtbd-success.md`
+
 ## Target customer hypothesis
 
-Independent tattoo artist or small-chair-renter who:
+Primary ICP:
 
-- gets a large share of discovery through Instagram;
-- handles enquiries manually through DMs/email/WhatsApp;
-- uses PayPal/bank transfer/payment links for deposits;
-- manages books-open / closed communication manually;
-- may sell or reserve flash;
-- wants a distinctive professional presence, not a generic template.
+**Independent tattoo artists who own the client relationship, receive meaningful inbound interest through Instagram/social/referrals, and still qualify/manage that demand through fragmented manual tools.**
 
-Multi-artist studio management is out of scope for the first product definition.
+Typical fit includes:
+
+- solo independent artists and chair renters;
+- enquiry handling through DMs/email/WhatsApp;
+- manual qualification around placement, size, references and related details;
+- artist-controlled Books status and client communication;
+- manual deposit handling;
+- desire for a distinctive professional presence rather than a generic template.
+
+Artists who also sell scarce flash are a particularly strong early-adopter signal because reservation integrity is a repeated high-severity pain, but Flash is not mandatory for every V1 customer.
+
+Multi-artist studio/team management, marketplace-first buyers, and full public-calendar buyers are outside the primary V1 ICP.
+
+See `docs/product/tattoo-v1-icp-jtbd-success.md` for the evidence, explicit exclusions and M3 validation assumptions.
 
 ## Core customer job
 
 **Turn social attention into qualified tattoo work without losing serious enquiries, repeating the same questions, or double-selling scarce flash.**
+
+Top jobs are:
+
+1. convert social discovery into a credible next action;
+2. qualify custom tattoo demand before manual conversation;
+3. keep serious enquiries out of social inbox noise;
+4. reserve scarce flash without double-confirming it;
+5. tie commitment to the specific request/design while preserving the artist-owned customer relationship.
 
 ## Candidate P0 areas
 
@@ -87,12 +106,20 @@ Candidate inputs:
 
 AI may assist with bounded draft copy such as bio, booking instructions, FAQs and SEO text.
 
-## Candidate success metrics
+## Success metrics
 
-1. **Time to usable bio link** — time from signup to a page the artist is willing to publish in their Instagram bio.
-2. **Qualified request rate** — proportion of incoming requests containing the information required for the artist to assess suitability.
-3. **Flash reservation integrity** — zero double-confirmed reservations for one flash design.
-4. **Commercial conversion** — at least one real request / deposit through Tessnova during concierge or beta testing.
+Issue #11 defines the operational metrics in detail.
+
+Current measures are:
+
+1. **Time to usable bio link** — setup start until a live page the artist is willing to publish/use; working target median under 10 minutes.
+2. **Qualified-request decision readiness** — percentage of submitted requests assessable without first asking for missing required qualification information; initial validation target >=80%.
+3. **Qualification back-and-forth** — median clarification messages after a structured request; initial validation target <=1.
+4. **Flash reservation integrity** — zero double-confirmed reservations for one scarce flash design; hard invariant.
+5. **Commercial conversion** — at least one real external client completes a qualified request or flash reservation through Tessnova during validation.
+6. **Retained workflow use** — repeated real workflow activity after activation; no hard percentage is approved yet because retention confidence remains medium-low.
+
+See `docs/product/tattoo-v1-icp-jtbd-success.md` for definitions, evidence boundaries and M3 tests.
 
 ## Explicit postponements
 

@@ -5,9 +5,13 @@
 | Profession-specific products outperform generic builder positioning | Strongly supported | Six workflow interviews + competitive/product analysis |
 | Tattoo is the strongest first launch vertical | **Accepted M1 decision** | ADR-004; TAT-01/TAT-02 |
 | One shared platform can serve several verticals without degrading UX | Unproven / medium | M2 Events paper stress-test; later real second vertical |
+| Independent, social-led artists with recurring manual qualification pain are the strongest Tattoo V1 ICP | Medium-high | Issue #11 synthesis of TAT-01/TAT-02; challenge with M3 prototype participants |
 | Structured onboarding is preferred to a blank editor | Medium-high hypothesis | M3 prototype test |
+| A credible publishable Tattoo page can be configured in under ~10 minutes | Unproven / medium | M3 timed onboarding/prototype test |
 | One-page public presence is sufficient for Tattoo V1 acquisition surface | Medium-high | TAT-01/TAT-02; validate prototype |
 | Qualification/workflow value exceeds page customization value | Strongly supported | TAT-01/TAT-02 and cross-vertical research |
+| Structured requests materially reduce qualification back-and-forth | Medium-high hypothesis | M3 task testing; later concierge/beta measure decision-ready rate and clarification messages |
+| Ongoing request/Books/Flash/reservation workflow creates retention beyond a static bio page | Medium-low | M3 concept validation; later observe repeated real workflow use after activation |
 | €19/month is a plausible initial Tattoo test price | Medium | TAT-01 explicit yes at €19; TAT-02 decision point around €20 |
 | Integrated deposits increase Tattoo willingness to pay | Medium | TAT-01 supports higher price with deposit collection; both use deposits today |
 | Custom domain is a universal Tattoo P0 requirement | **Not supported** | TAT-02 cares; evidence is mixed; keep out of universal P0 pending prototype tests |
