@@ -5,6 +5,9 @@
 Issue #11 customer/outcome definition:
 `docs/product/tattoo-v1-icp-jtbd-success.md`
 
+Issue #12 domain-semantics definition:
+`docs/product/tattoo-domain-semantics.md`
+
 ## Target customer hypothesis
 
 Primary ICP:
@@ -52,32 +55,57 @@ Top jobs are:
 - custom request entry point
 
 ### Books
-- open
-- closed
-- optional guest-spot note
 
-Books is not a calendar.
+Proposed #12 definition for Founder review:
 
-### Custom request
-Required candidate fields:
-- placement
-- size in centimetres
-- reference images
-- black / colour
-- description
-- cover-up status
-- rough month / timing
+- OPEN = accepting new Custom Requests;
+- CLOSED = not accepting new Custom Requests;
+- Books is not a calendar and does not promise appointment slots;
+- existing submitted requests remain active when Books close;
+- Flash availability is independent from Books;
+- optional future-opening information is informational only;
+- Guest Spot is contextual/datestamped information, not a separate workspace/location engine.
 
-Budget remains configurable / optional pending further product definition.
+### Custom Request
+
+Required V1 qualification information:
+
+- placement;
+- size in centimetres;
+- black / colour preference;
+- one or more reference images;
+- short description / idea;
+- cover-up status;
+- rough desired timing;
+- reply contact.
+
+Budget remains optional.
+
+Proposed #12 lifecycle:
+
+`SUBMITTED → IN_REVIEW ↔ NEEDS_INFO → ACCEPTED | DECLINED`
+
+with requester `WITHDRAWN` paths before acceptance.
+
+**ACCEPTED != appointment.**
 
 ### Flash
-Candidate states:
-- available
-- hold pending payment
-- reserved
-- booked
 
-The product must prevent two confirmed reservations for the same scarce design.
+Proposed #12 states:
+
+`AVAILABLE → HOLD_PENDING_PAYMENT → RESERVED → BOOKED`
+
+Key semantics:
+
+- hold = temporary exclusive claim, not confirmed;
+- reserved = one confirmed customer, appointment not yet required;
+- booked = confirmed reservation plus confirmed appointment;
+- only one active exclusive customer may exist for a scarce Flash design;
+- cancellation never silently re-releases Flash.
+
+Exact hold/payment/refund semantics remain #14.
+
+See `docs/product/tattoo-domain-semantics.md` for the full state and transition contract.
 
 ### Deposit
 Deposit is tied to a specific request or flash reservation.
