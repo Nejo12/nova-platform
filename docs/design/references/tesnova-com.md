@@ -23,7 +23,7 @@ These observations record **what the Founder wants to study**, not an instrument
 
 **B. Directly retrieved content hierarchy (verified from publicly accessible page text)**
 
-A current text/html retrieval of https://www.tesnova.com/ exposes:
+A web-indexed text/html retrieval of https://www.tesnova.com/ (the index reports a crawl roughly two months before this study) exposes:
 
 - a named hero with two prominent actions (portfolio and project contact);
 - sections for work/services, UI/development and recent projects;
@@ -31,7 +31,7 @@ A current text/html retrieval of https://www.tesnova.com/ exposes:
 - a team/company story, testimonial sections and a contact form;
 - navigation, footer and additional services links.
 
-This corroborates a **progressive information hierarchy, repeated contextual actions and section rhythm**, not a conclusion about exact animation curves, colors, cursor code, page-load speed or interaction quality. The domain is a software-development agency, not a tattoo product; its agency portfolio, pricing and contact sections **must not be transplanted into Tessnova**.
+This supports a **reported progressive information hierarchy and repeated contextual actions**, but not an observed visual rhythm, not a conclusion about exact animation curves, colors, cursor code, page-load speed or interaction quality. The domain is a software-development agency, not a tattoo product; its agency portfolio, pricing and contact sections **must not be transplanted into Tessnova**.
 
 **C. Browser verification attempt (incomplete; no fabricated results)**
 
@@ -104,7 +104,7 @@ Do **not** describe any of these as observed facts or claim that the reference m
 | Heavy continuous parallax / scrolling depth effect | **Reject by default** | Motion sensitivity, battery/performance and focus/scroll issues |
 | Scroll hijacking/snap that controls user navigation | **Reject** | Conflicts with keyboard, browsing history, touch and request data entry |
 | Autoplay infinite marquees or moving testimonial strips | **Reject by default** | Distracts from real artist content; must comply with Pause/Stop/Hide if used at all |
-| Motion-only notification or availability status | **Reject** | Money and scarcity state cannot rely on color, movement or a fleeting toast |
+| Motion-only notification or availability status | **Reject** | Money and scarcity state cannot rely on color, movement or a fleeting toast; **one scarce Flash design must never have two confirmed customers** |
 | 3D tilting/perspective over private client uploads | **Reject** | Privacy/credibility hazard; no connection to qualification task |
 | Complex shared animation/runtime package | **Not authorized** | No generic vertical or animation engine without independently proven reuse |
 
