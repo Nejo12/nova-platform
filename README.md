@@ -51,3 +51,18 @@ Do **not** begin production implementation until M2 Product Definition is explic
 - **Figma:** UX, visual design, flows, design foundations and prototypes
 - **Claude Design:** divergent exploration only; not canonical
 - **Nova UI:** reusable domain-agnostic UI primitives and semantic tokens
+
+
+## Governance
+
+Repository-wide agent/contributor rules:
+- `AGENTS.md`
+
+Detailed operating model:
+- `docs/governance/project-operating-system.md`
+
+ChatGPT Project instruction template:
+- `docs/governance/chatgpt-project-instructions.md`
+
+Claude Code reads:
+- `CLAUDE.md`
