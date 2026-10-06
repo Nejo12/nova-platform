@@ -92,7 +92,7 @@ The **second-language threshold is not measured**. Choosing German P0 does **not
 | Books CLOSED | “Derzeit keine neuen Anfragen für individuelle Tattoos.” | “Keine Flash-Designs verfügbar” solely because Books is closed. |
 | New Custom Request CTA | “Tattoo-Idee anfragen” / “Anfrage senden” | “Termin verbindlich buchen” on a lead form. |
 | Flash AVAILABLE | “Flash-Design verfügbar” | “Sofort bestätigt” before a paid reservation. |
-| Flash temporary hold | “Dieses Design ist 15 Minuten für dich reserviert, während du die Anzahlung abschließt.” | An unrestricted guaranteed tattoo appointment. |
+| Flash temporary hold | “Dieses Flash-Design wird für höchstens 15 Minuten exklusiv freigehalten. Erst die rechtzeitig bestätigte Anzahlung sichert die Reservierung.” | An unrestricted guaranteed tattoo appointment. |
 | Flash RESERVED, not BOOKED | “Design für dich reserviert; Termin noch nicht vereinbart.” | “Dein Tattootermin ist gebucht.” |
 | Deposit | “Anzahlung auf den späteren Gesamtpreis” where applicable | Claiming payment completes an appointment or goes to Tessnova instead of the artist. |
 | Public image right | “Ich bestätige, dass ich dieses Bild öffentlich zeigen darf.” **plus explanation of rights and recognizable people** | “Der Kunde hat Tessnova seine Einwilligung gegeben.” |
