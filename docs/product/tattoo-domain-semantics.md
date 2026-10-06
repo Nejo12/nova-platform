@@ -2,6 +2,7 @@
 
 **Status:** Founder-approved M2 definition — Issue #12 complete  
 **Issue:** #12  
+**Canonical glossary:** `docs/product/tattoo-domain-glossary.md`  
 **Scope:** Tattoo product/domain semantics only. This document does not define payment-provider architecture, database schema, authentication, deployment, final storefront IA, or implementation.
 
 ## 1. Evidence boundary
