@@ -4,7 +4,7 @@
 |---|---|---|
 | Profession-specific products outperform generic builder positioning | Strongly supported | Six workflow interviews + competitive/product analysis |
 | Tattoo is the strongest first launch vertical | **Accepted M1 decision** | ADR-004; TAT-01/TAT-02 |
-| One shared platform can serve several verticals without degrading UX | Unproven / medium | M2 Events paper stress-test; later real second vertical |
+| One shared platform can serve several verticals without degrading UX | **Still unproven; #16 paper stress-test does not establish shared domain contracts** | [Events florist comparison](events-florist-paper-stress-test.md): existing Nova UI generic primitives can be reused; Books/Flash/Custom Request/Deposit semantics do not transfer unchanged. Revisit extraction only after a second real vertical proves the same five contract dimensions |
 | Independent, social-led artists with recurring manual qualification pain are the strongest Tattoo V1 ICP | Medium-high | Issue #11 synthesis of TAT-01/TAT-02; challenge with M3 prototype participants |
 | Structured onboarding is preferred to a blank editor | Medium-high hypothesis | M3 prototype test |
 | A credible publishable Tattoo page can be configured in under ~10 minutes | Unproven / medium | M3 timed onboarding/prototype test |
