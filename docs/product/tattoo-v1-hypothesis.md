@@ -56,7 +56,7 @@ Top jobs are:
 
 ### Books
 
-Approved #12 proposal for Founder review:
+Proposed #12 definition for Founder review:
 
 - OPEN = accepting new Custom Requests;
 - CLOSED = not accepting new Custom Requests;
