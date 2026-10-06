@@ -8,7 +8,7 @@
 
 ## 1. Objective and authority
 
-Question: **Which existing Tattoo V1 concepts remain useful for an Events florist without misnaming their work, weakening established invariants, introducing a generic booking/rules engine or inserting \`if (vertical)\` throughout the product?**
+Question: **Which existing Tattoo V1 concepts remain useful for an Events florist without misnaming their work, weakening established invariants, introducing a generic booking/rules engine or inserting `if (vertical)` throughout the product?**
 
 Sources:
 
@@ -46,7 +46,7 @@ This exercise tests contract **shape and mismatch**, not Events demand, product-
 
 ### Paper-only storefront / enquiry loop
 
-\`\`\`text
+```text
 Instagram / venue / planner referral
     ↓
 Florist-owned professional page
@@ -70,7 +70,7 @@ Florist manually assesses fit, logistics and feasibility
 Optional later call, PDF, proposal or contract (outside this test's MVP)
     ↓
 Any deposit/payment only after future Events contract exists
-\`\`\`
+```
 
 This is a **paper illustration**, not an approved Events application, requirements list or state machine. It intentionally avoids specifying public date availability, online booking, a contract generator, date-hold automation, or a payment provider.
 
@@ -101,7 +101,7 @@ Two couples enquire about the same Saturday. They may both be valid **enquiries*
 
 ### Illustrative enquiry scenario D: informal date hold
 
-EVT-02 reported holding dates informally for approximately a week. That **does not** establish an Events-wide hold-duration requirement, nor equivalence with the Tattoo 15-minute \`HOLD_PENDING_PAYMENT\` guarantee. A future Events commitment/hold contract would need its own trigger, expiry, exclusivity, cancellation and communication rules **if** validated.
+EVT-02 reported holding dates informally for approximately a week. That **does not** establish an Events-wide hold-duration requirement, nor equivalence with the Tattoo 15-minute `HOLD_PENDING_PAYMENT` guarantee. A future Events commitment/hold contract would need its own trigger, expiry, exclusivity, cancellation and communication rules **if** validated.
 
 ### Illustrative enquiry scenario E: payment only later
 
@@ -154,7 +154,7 @@ Each candidate must be tested against the five dimensions when Events has its ow
 - Tattoo storefront composition/curated themes; Tattoo activation measurements; Artist Home Books/request/hold/deposit priorities.
 - Tattoo-specific AI source facts, copy boundaries and client-facing terminology.
 
-**Do not rename these to \`Availability\`, \`Reservation\`, \`Job\` or \`Service\` simply to make a multi-vertical interface compile.**
+**Do not rename these to `Availability`, `Reservation`, `Job` or `Service` simply to make a multi-vertical interface compile.**
 
 ### D. Must remain Events-specific if later approved
 
@@ -220,7 +220,7 @@ These questions must not become requirements or tasks for Tattoo M3/M4 without n
 2. **No new shared domain layer qualifies now.** Product-specific first remains intact. Use Nova UI generic primitives as already intended; defer business extraction until a real second vertical independently proves the full contract.
 3. **No changes** to #11–#15 Tattoo semantics, measurement targets or M3 validation hypotheses are necessary because of this paper test.
 4. **Do not add Events to Tattoo V1 P0/P1**, and do not infer a new Events implementation phase from #16 approval.
-5. Carry this **negative extraction result** into Issue #17's postponed/non-goal section and future architecture guardrails; no \`vertical\` schema field or generic availability/booking engine.
+5. Carry this **negative extraction result** into Issue #17's postponed/non-goal section and future architecture guardrails; no `vertical` schema field or generic availability/booking engine.
 6. Preserve separate pending #17 prerequisites: Tattoo public-media permission rule and **initial locale** decision. These were not resolved by this Events stress test.
 
 ## 10. Explicit non-deliverables
@@ -228,7 +228,7 @@ These questions must not become requirements or tasks for Tattoo M3/M4 without n
 Issue #16 does **not** create or approve:
 
 - Events V1 specification, Events work tickets, Event pages, workflow states or implementation;
-- a general product/vertical engine, \`vertical\` discriminator, generic availability/booking engine or service-schema generator;
+- a general product/vertical engine, `vertical` discriminator, generic availability/booking engine or service-schema generator;
 - shared packages, components, databases, fields, tests or production code;
 - modification of Nova UI, Klinnova, Slotnova or canonical Figma;
 - a generic pricing/percentage-payment engine, contract builder, proposal automation or multi-user workspace;
@@ -246,7 +246,7 @@ Merging this documentation PR signifies the Founder accepts that:
 - [ ] Generic Nova UI presentation primitives remain the only immediately reusable established layer; possible common business envelopes are **not extracted**.
 - [ ] Books, Flash, Custom Request, Tattoo Deposit and Artist Home remain Tattoo-specific.
 - [ ] Events operational date feasibility, pricing/budget fit and proposal context remain distinct, tentative future considerations.
-- [ ] No Events code, schema, shared package, \`vertical\` column, Figma mutation or M3/M4 work was performed.
+- [ ] No Events code, schema, shared package, `vertical` column, Figma mutation or M3/M4 work was performed.
 - [ ] #17 still requires media-publication permission, locale and explicit Founder P0/P1/postponed approval before M2 can close.
 
 **Approval scope:** Issue #16 paper-test classification only. Founder alone merges. This does not approve Events production, close M2 or authorize implementation.
