@@ -1,91 +1,68 @@
 # Vertical Validation Scorecard
 
-**Status:** M1 Round 1 — evidence-backed provisional ranking  
-**Evidence base:** TAT-01, EVT-01, SPK-01 + prior market research  
-**Confidence:** Medium for direction, low for precise numeric ranking
+**Status:** M1 Round 2 — evidence-backed ranking  
+**Evidence base:** TAT-01, TAT-02, EVT-01, EVT-02, SPK-01, SPK-02 + prior market research  
+**Confidence:** Medium-high for vertical direction; still qualitative, not statistical
 
 Scores are 1–5. Competitive intensity is reverse-scored: 5 = more attractive / less adequately served.
 
 | Criterion | Tattoo | Events | Speakers |
 |---|---:|---:|---:|
-| Pain frequency | 5 | 4 | 3 |
+| Pain frequency | 5 | 4 | 4 |
 | Pain severity | 5 | 4 | 3 |
-| Existing software spend | 2 | 4 | 2 |
+| Existing software spend | 2 | 4 | 3 |
 | Lead / booking value | 4 | 5 | 5 |
 | One-page suitability | 5 | 4 | 5 |
-| Customer reachability | 5 | 4 | 3 |
+| Customer reachability | 5 | 4 | 4 |
 | Competitive intensity | 4 | 3 | 3 |
 | Structured workflow opportunity | 5 | 5 | 4 |
-| Payment intent | 5 | 4 | 5 |
+| Payment intent | 4 | 4 | 4 |
 | Expansion potential | 4 | 5 | 3 |
-| **Directional total** | **44 / 50** | **42 / 50** | **36 / 50** |
+| **Directional total** | **43 / 50** | **42 / 50** | **38 / 50** |
 
-## Interpretation
+## What Round 2 changed
 
-### 1. Tattoo — provisional launch recommendation
+Round 2 did **not** overturn the ranking. It strengthened the pattern consistency.
 
-Strongest combination of:
-- frequent pain;
-- severe operational failure;
-- one-page fit;
-- direct social distribution;
-- willingness to pay;
-- distinctive stateful workflow.
+### Tattoo
+Both tattoo participants independently reported:
+- Instagram as the dominant acquisition channel;
+- books-open/closed communication failing to stop DMs;
+- repetitive qualification around size, placement and references;
+- serious enquiries getting mixed with social noise;
+- PayPal deposits;
+- manual flash claim state;
+- **flash double-booking happening twice**;
+- rejection of generic/template-looking pages.
 
-The strongest evidence is not aesthetic. It is operational:
+This repetition materially increases confidence that the Tattoo wedge is real rather than participant-specific.
 
-- books state goes stale across Stories/highlights;
-- weak DMs require repeated qualification;
-- flash has been **double-sold after two people paid**;
-- deposit is disconnected from the design/date;
-- €19/month is an explicit yes if flash cannot be double-sold;
-- €39/month becomes acceptable when deposit collection is integrated.
+### Events
+Both event participants independently reported:
+- Instagram/referrals as primary discovery;
+- date + venue + guest count + budget as the key qualification set;
+- manual Google Calendar checks;
+- starting-price guidance rather than full public pricing;
+- budget mismatch discovered too late;
+- brochure/PDF-heavy current workflows;
+- willingness to pay more only when contracts/payments enter the product.
 
-This creates a clear product wedge beyond a generic website builder.
-
-### 2. Events — strongest second-vertical candidate
-
-Very high booking value and strong qualification pain.
-
-Core job:
-**date + venue + guest count + budget qualification before proposal work.**
-
-Why second rather than first:
-- stronger pull toward proposals, contracts, calendars, invoicing and operational availability;
-- easier for V1 scope to expand into a larger business-management product;
-- still excellent evidence and likely the best test of whether any Tessnova contracts are genuinely reusable.
-
-### 3. Speakers — attractive but less sticky
-
-Excellent one-page fit and high willingness to pay.
-
-Core job:
-**keep current media/talk assets in one place and capture event constraints early.**
-
-Why third:
-- lower transaction frequency;
-- speaking site is explicitly not where the money is made;
-- personal custom domain is a stronger requirement;
-- fewer obvious recurring stateful workflows than Tattoo.
-
-## Important cross-vertical evidence
-
-The interviews strongly validate that **“availability” is not one shared object**:
-
-- Tattoo → books open/closed + guest spot
-- Events → date + venue + operational collision check
-- Speakers → date/city/travel/audience constraints
-
-They also validate different pricing rules:
-
-- Tattoo → public minimum is useful
-- Events → starting floor is useful; exact pricing private
-- Speakers → fee should remain private
-
-This supports vertical-specific schemas/rules and argues against premature shared capability abstractions.
+### Speakers
+Both speaker participants independently reported:
+- LinkedIn/referrals as primary discovery;
+- repeated requests for bios, photos, videos and topic descriptions;
+- stale or fragmented media assets;
+- direct booking remaining important;
+- a professional one-link presence as the core product;
+- €15–39/month as plausible;
+- lower workflow stickiness than Tattoo or Events.
 
 ## Recommendation
 
-Proceed with **Tattoo as the provisional first vertical for M2 Product Definition**, while preserving Events as the intended paper stress-test / likely second vertical.
+**Tattoo remains the recommended first Tessnova vertical.**
 
-Do not treat the numeric totals as statistical results. They are a structured decision aid over qualitative evidence.
+Events remains the strongest second vertical and the best future stress-test for shared abstractions.
+
+Speakers remains commercially plausible but less strategically attractive as V1 because its core pain is more presentation/asset-distribution oriented and less stateful.
+
+Do not treat the totals as statistical proof. The decision rests on repeated qualitative patterns, commercial severity and scope discipline.
