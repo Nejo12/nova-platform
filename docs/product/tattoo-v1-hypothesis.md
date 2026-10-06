@@ -11,6 +11,9 @@ Issue #12 domain-semantics definition:
 Issue #13 storefront IA/theme definition:
 `docs/product/tattoo-storefront-ia-themes.md`
 
+Issue #14 deposit-semantics definition:
+`docs/product/tattoo-deposit-semantics.md`
+
 ## Target customer hypothesis
 
 Primary ICP:
@@ -124,9 +127,25 @@ Exact hold/payment/refund semantics remain #14.
 See `docs/product/tattoo-domain-semantics.md` for the full state and transition contract.
 
 ### Deposit
-Deposit is tied to a specific request or flash reservation.
 
-Payment implementation is not yet decided.
+Proposed #14 definition for Founder review:
+
+- Deposit = fixed monetary prepayment toward specific accepted Custom work or a specific Flash reservation;
+- Deposit is credited toward the final tattoo price;
+- artist may configure separate default Custom and Flash deposit amounts;
+- Custom deposit may only be requested after ACCEPTED and does not create an appointment;
+- Flash public reservation acquires an exclusive hold before payment;
+- working V1 Flash hold duration = 15 minutes;
+- successful Flash deposit during the active hold creates RESERVED;
+- late payment after hold expiry can never override current Flash state;
+- paid cancellation resolves explicitly to REFUNDED or RETAINED;
+- cancellation never automatically re-releases Flash;
+- artist owns the cancellation/refund policy;
+- Tessnova must preserve artist-facing ownership of the client relationship.
+
+Payment-provider and merchant architecture remain M4 decisions.
+
+See `docs/product/tattoo-deposit-semantics.md` for the full contract.
 
 ### Artist Home
 Morning-screen candidate:

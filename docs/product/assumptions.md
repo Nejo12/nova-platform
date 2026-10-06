@@ -14,6 +14,9 @@
 | Ongoing request/Books/Flash/reservation workflow creates retention beyond a static bio page | Medium-low | M3 concept validation; later observe repeated real workflow use after activation |
 | €19/month is a plausible initial Tattoo test price | Medium | TAT-01 explicit yes at €19; TAT-02 decision point around €20 |
 | Integrated deposits increase Tattoo willingness to pay | Medium | TAT-01 supports higher price with deposit collection; both use deposits today |
+| A fixed 15-minute Flash hold is enough time to pay without locking scarce inventory too long | Unproven / medium | Issue #14 product hypothesis; test in M3 Flash-reservation prototype |
+| Separate artist-level Custom and Flash deposit defaults are sufficient without per-request amount overrides | Medium | TAT-01 uses different fixed Custom/Flash amounts; test flexibility need in M3 |
+| V1 Deposit should always be credited toward final tattoo price | Medium | Directly supported by TAT-01; no contradictory evidence from TAT-02; validate in M3 |
 | Custom domain is a universal Tattoo P0 requirement | **Not supported** | TAT-02 cares; evidence is mixed; keep out of universal P0 pending prototype tests |
 | Public calendar / slot picker is required | **Rejected for V1** | Tattoo and Events evidence favors requests/manual confirmation |
 | Generic visual templates are acceptable | **Rejected** | Tattoo + Events participants explicitly reject generic/template/AI-looking presentation |

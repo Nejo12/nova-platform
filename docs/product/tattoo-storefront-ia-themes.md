@@ -252,15 +252,22 @@ Candidate content includes:
 
 ## Deposit boundary
 
-Until Issue #14 is approved, storefront copy must not imply exact:
+When a Deposit is presented publicly, the client-facing storefront/payment path must make clear:
 
-- deposit amount;
-- hold duration;
-- refund conditions;
-- payment provider;
-- payment ownership model.
+- which artist/work the Deposit applies to;
+- amount and currency;
+- that the Deposit is credited toward the final tattoo price;
+- whether it secures a Flash reservation or relates to an Accepted Custom Request;
+- the applicable artist-owned cancellation/refund policy;
+- that Custom Deposit payment does not by itself create an appointment.
 
-Issue #13 establishes only that the process/policies area is where approved client-facing deposit information may later appear.
+For Flash, the active exclusive hold is time-limited and the client must be able to understand that successful payment during the active hold creates the reservation.
+
+The storefront must preserve the artist-owned customer relationship rather than present Tessnova as the tattoo service provider.
+
+Exact payment-provider and merchant architecture remain M4 decisions.
+
+See `docs/product/tattoo-deposit-semantics.md` for the Issue #14 payment-state contract.
 
 ---
 
@@ -487,7 +494,7 @@ M3 will derive Tessnova's own motion and interaction language.
 | Flash section | Independent | Independent | Only when artist publishes Flash |
 | Flash claim action | Available Flash only | Available Flash only | Per Flash item state |
 | Price floor | Optional | Optional | Artist chooses whether to show |
-| Process/policies | Present where configured | Present where configured | Deposit wording waits for #14 |
+| Process/policies | Present where configured | Present where configured | Deposit wording follows the Issue #14 contract |
 | Supporting social links | Optional | Optional | Must remain secondary to qualified action paths |
 
 ---
