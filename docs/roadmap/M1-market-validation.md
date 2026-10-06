@@ -1,31 +1,41 @@
 # M1 — Market Validation
 
-**Status:** ACTIVE
+**Status:** COMPLETE
 
-## Objective
+## Decision
 
-Select Tessnova's first commercial vertical using observed workflow evidence, pain severity, commercial value and willingness to pay.
+**Launch vertical:** Tattoo  
+**Second-vertical stress test:** Wedding / Events  
+**Later opportunity:** Professional Speakers
 
-## Cohort target
+## Evidence base
 
-- 10 Tattoo professionals
-- 5 Wedding/Event professionals
-- 5 Professional Speakers
+- 2 Tattoo professionals
+- 2 Wedding / Event professionals
+- 2 Professional Speakers
 
-## Required outputs
+The original recruitment target was larger, but M1 is closed because the six interviews produced repeated, high-signal workflow patterns sufficient for directional product selection.
 
-- participant tracker;
-- interview notes;
-- evidence synthesis;
-- pricing evidence;
-- completed vertical scorecard;
-- launch vertical ADR.
+Additional interviews remain useful but are no longer a blocking gate.
 
-## Gate to M2
+## Completed outputs
 
-M2 — Product Definition may begin only when:
-- sufficient interviews are complete to reveal recurring patterns;
-- the selected vertical has a repeated and economically meaningful problem;
-- there is a credible acquisition route;
-- V1 can remain narrow;
-- the founder approves the evidence-backed launch vertical.
+- [x] participant tracker
+- [x] interview records
+- [x] evidence synthesis
+- [x] pricing evidence
+- [x] vertical scorecard
+- [x] launch vertical ADR
+- [x] Founder approval
+
+## Key conclusion
+
+Tattoo produced the strongest narrow product wedge:
+
+**social discovery → professional storefront → qualified custom request or flash reservation → deposit → artist home**
+
+## Handoff
+
+Proceed to **M2 — Product Definition**.
+
+No production implementation begins until M2 scope is explicitly approved.
