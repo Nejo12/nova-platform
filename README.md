@@ -1,18 +1,30 @@
 # Tessnova / nova-platform
 
-**Status:** M0 — Project Foundation  
+**Status:** M2 — Product Definition  
 **Commercial brand:** Tessnova  
-**Engineering repository:** `nova-platform`
+**Engineering repository:** `nova-platform`  
+**Launch vertical:** Tattoo
 
-Tessnova is a vertical professional-presence and client-acquisition platform for independent professionals.
+Tessnova is a profession-specific professional-presence and client-acquisition product. The long-term architecture may support multiple verticals, but the first product is intentionally Tattoo-specific.
 
-## Founding vertical hypotheses
+## Roadmap state
 
-- Tattoo artists
-- Event / wedding professionals
-- Professional speakers
+- M0 — Foundation: **complete**
+- M1 — Market Validation: **complete**
+- M2 — Product Definition: **active**
+- M3 — Product Design: waiting
+- M4 — Technical Architecture: waiting
+- M5 — MVP Alpha: waiting
+- M6 — Private Beta: waiting
+- M7 — Paid Beta: waiting
 
-These are validation candidates, not permanent product boundaries.
+## Launch decision
+
+- **V1:** independent tattoo artists
+- **Second-vertical stress test:** Wedding / Events
+- **Later opportunity:** Professional Speakers
+
+See `docs/decisions/ADR-004-tattoo-launch-vertical.md`.
 
 ## Nova ecosystem
 
@@ -21,17 +33,21 @@ Tessnova belongs to the Nova product family and consumes:
 - `@nova-component/ui`
 - `@nova-component/design-tokens`
 
-Product-specific business components stay local to Tessnova. Components are promoted into Nova UI only after they are proven product-agnostic.
+Nova UI remains product/domain-agnostic. Tattoo-specific components, rules, themes and terminology stay inside Tessnova unless a later real consumer proves a genuinely reusable contract.
 
-## M0 principle
+## Governing implementation rule
 
-**Build one platform internally. Launch one vertical externally.**
+**Build one Tattoo product first. Extract shared platform contracts only after a second real vertical proves the reuse.**
 
-No production application implementation is part of M0.
+The broader platform/capability diagrams are conceptual destination models, not instructions to create generic packages, schemas, a rules engine or a `vertical` column in V1.
+
+## Current gate
+
+Do **not** begin production implementation until M2 Product Definition is explicitly approved.
 
 ## Source of truth
 
-- **GitHub:** product requirements, roadmap, ADRs, research decisions and implementation status.
-- **Figma:** UX, visual design, flows, design foundations and prototypes.
-- **Claude Design:** divergent exploration, not canonical.
-- **Nova UI:** reusable product UI implementation primitives.
+- **GitHub:** requirements, roadmap, ADRs, research decisions and implementation status
+- **Figma:** UX, visual design, flows, design foundations and prototypes
+- **Claude Design:** divergent exploration only; not canonical
+- **Nova UI:** reusable domain-agnostic UI primitives and semantic tokens
