@@ -1,7 +1,9 @@
 # M2 — Product Definition
 
-**Status:** ACTIVE  
-**Launch vertical:** Tattoo
+**Status:** COMPLETE — on Founder manual merge of the Issue #17 final-scope PR  
+**Launch vertical:** Tattoo  
+**Authoritative approved scope:** [Tattoo V1 P0/P1/postponed specification](../product/tattoo-v1-approved-scope.md)  
+**Approval:** Founder manual merger of the Issue #17 closure PR; M3 begins only after merge verification. This status is not an authorization for M4/M5 production architecture or code.
 
 ## Objective
 
@@ -65,3 +67,9 @@ Deposits
 Do not choose framework, database schema, payment architecture or production deployment here unless a product decision depends on it.
 
 Those belong in M4 — Technical Architecture.
+
+## Closure outcome
+
+Tattoo V1's exact P0, P1, postponed/non-goal boundaries, product hard invariants, M3 design handoff and unresolved M4 questions are consolidated in [the final M2 scope specification](../product/tattoo-v1-approved-scope.md). Founder approval of that specification through the bounded Issue #17 PR completes M2 and makes **M3 Product Design** the active next phase. It does **not** authorize M4 or production implementation.
+
+After merge, governance Issue #20 Trigger B requires a **separate** Founder-reviewed `NOT_NOW.md` PR copied from the approved postponed list. Issue #20 remains open for future triggers.
