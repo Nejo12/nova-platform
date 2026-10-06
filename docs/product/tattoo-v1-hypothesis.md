@@ -8,6 +8,9 @@ Issue #11 customer/outcome definition:
 Issue #12 domain-semantics definition:
 `docs/product/tattoo-domain-semantics.md`
 
+Issue #13 storefront IA/theme definition:
+`docs/product/tattoo-storefront-ia-themes.md`
+
 ## Target customer hypothesis
 
 Primary ICP:
@@ -44,15 +47,28 @@ Top jobs are:
 ## Candidate P0 areas
 
 ### Public storefront
-- artist identity
-- city / studio context
-- portfolio
-- tattoo styles
-- minimum / price floor where artist chooses to show it
-- books status
-- flash
-- policies / booking instructions
-- custom request entry point
+
+Proposed #13 definition for Founder review:
+
+- one-page, mobile-first artist storefront linked from Instagram/social;
+- first decision zone: artist identity, city/studio context, styles, Books state and correct next action;
+- portfolio appears early as the primary credibility/fit surface;
+- Flash is a separate conditional scarce-inventory section, not ordinary portfolio content;
+- artist/style/studio context supports trust after the work is visible;
+- process/policies/booking instructions prepare the client before requesting;
+- final action repeats the correct next step without routing serious demand back into ambiguous DMs;
+- price minimum/floor remains optional;
+- Books Closed disables new Custom Request intake but does not suppress independently Available Flash.
+
+Theme contract:
+
+- themes share the same Tattoo semantics/data;
+- themes must vary composition, density, typography and image treatment—not only colour;
+- state truth always outranks aesthetics;
+- V1 uses curated structured themes, not a freeform page builder;
+- final visual design, theme count and motion language remain M3.
+
+See `docs/product/tattoo-storefront-ia-themes.md` for the full IA, content matrix, theme rules and mobile-first constraints.
 
 ### Books
 
@@ -172,6 +188,12 @@ See `docs/product/tattoo-v1-icp-jtbd-success.md` for definitions, evidence bound
 
 The experience must not feel generic, dull or obviously AI-generated.
 
-Themes should eventually vary composition and layout—not merely color—while preserving structured Tattoo data.
+Issue #13 defines the proposed visual product contract:
 
-Tesnova.com remains a craftsmanship / interaction-quality reference, not a source to copy.
+- artist work remains visually dominant;
+- themes vary composition, density, typography and image treatment—not merely colour;
+- themes preserve Books / Flash / Custom Request semantics;
+- mobile is the primary storefront context;
+- theme customization stays curated rather than becoming a freeform builder.
+
+Tesnova.com remains a craftsmanship / interaction-quality reference, not a source to copy. The detailed interaction/motion study remains M3 Issue #10.
