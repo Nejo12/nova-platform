@@ -263,25 +263,73 @@ The Custom Request is no longer active.
 
 ## Deposit
 
-**Definition intentionally incomplete pending Issue #14.**
+A fixed monetary prepayment associated with specific tattoo work.
 
-The already-approved boundary is:
+V1 product meaning:
 
-- a deposit is associated with a specific Flash reservation or Custom Request context;
-- financial semantics must not be inferred merely from Flash or Custom Request state names;
-- Tessnova should preserve the artist-owned customer relationship.
+- tied to one specific accepted Custom Request or specific Flash reservation;
+- credited toward the final tattoo price;
+- artist-facing rather than a generic Tessnova balance;
+- separate from appointment state.
 
-Issue #14 must still define:
+### Custom Request
 
-- amount/configurability;
-- exact hold/payment trigger;
-- hold duration;
-- successful-payment meaning;
-- refund/cancellation behavior;
-- whether the deposit is credited to the final tattoo total;
-- product boundary between artist and Tessnova.
+A custom Deposit may be requested only after the Custom Request is **Accepted**.
 
-Do not treat this glossary entry as approval of any payment-provider architecture.
+Deposit payment does not automatically create an appointment.
+
+### Flash
+
+A public Flash reservation uses Deposit as the confirmation mechanism:
+
+```text
+AVAILABLE
+  ↓ exclusive claim
+HOLD PENDING PAYMENT
+  ↓ deposit PAID while hold is active
+RESERVED
+  ↓ appointment confirmed
+BOOKED
+```
+
+The V1 Flash hold lasts **15 minutes** from successful exclusive hold acquisition.
+
+A payment confirmed after the hold has expired must never override current Flash state or create a second confirmed customer.
+
+### Amount
+
+The artist may configure separate fixed default amounts for:
+
+- Custom Request Deposit;
+- Flash Deposit.
+
+V1 does not require percentage deposits or arbitrary per-request amount overrides.
+
+### Financial state
+
+```text
+DUE → PAID → REFUNDED | RETAINED
+```
+
+A failed payment attempt remains DUE while the relevant payment opportunity is active.
+
+### Cancellation
+
+The artist owns the cancellation/refund policy.
+
+V1 does not impose one universal refund window.
+
+A paid cancellation ends with an explicit **Refunded** or **Retained** outcome.
+
+Refund/cancellation never automatically re-releases scarce Flash; the artist must explicitly release the design.
+
+### Ownership boundary
+
+Tessnova may facilitate payment and record state, but the storefront/product must preserve the client-to-artist relationship rather than present Tessnova as the tattoo service provider.
+
+Payment-provider and merchant architecture remain M4 decisions.
+
+See `docs/product/tattoo-deposit-semantics.md` for the full Issue #14 contract.
 
 ---
 
