@@ -1,7 +1,8 @@
 # Tattoo V1 — Books, Flash and Custom Request Semantics
 
-**Status:** M2 definition for Founder approval  
+**Status:** Founder-approved M2 definition — Issue #12 complete  
 **Issue:** #12  
+**Canonical glossary:** `docs/product/tattoo-domain-glossary.md`  
 **Scope:** Tattoo product/domain semantics only. This document does not define payment-provider architecture, database schema, authentication, deployment, final storefront IA, or implementation.
 
 ## 1. Evidence boundary
@@ -21,7 +22,7 @@ Both Tattoo participants independently reported:
 
 ### Product decisions in this document
 
-The exact state names and transition rules below are **M2 product decisions proposed for Founder approval**. They are not all directly observed in research.
+The exact state names and transition rules below are **Founder-approved M2 product decisions from Issue #12**. They are not all directly observed in research.
 
 Where payment timing, refund behavior or provider behavior is involved, this document defines only the minimum state boundary needed by #12. Issue #14 remains authoritative for deposit semantics.
 
