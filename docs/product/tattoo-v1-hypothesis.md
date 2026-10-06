@@ -14,6 +14,9 @@ Issue #13 storefront IA/theme definition:
 Issue #14 deposit-semantics definition:
 `docs/product/tattoo-deposit-semantics.md`
 
+Issue #15 onboarding, bounded AI and Artist Home definition:
+`docs/product/tattoo-onboarding-ai-artist-home.md`
+
 ## Target customer hypothesis
 
 Primary ICP:
@@ -148,26 +151,14 @@ Payment-provider and merchant architecture remain M4 decisions.
 See `docs/product/tattoo-deposit-semantics.md` for the full contract.
 
 ### Artist Home
-Morning-screen candidate:
-- books status
-- new requests
-- active flash holds
-- deposits / reservation status
+Issue #15 proposes a narrow morning screen showing public/Books state, actionable Custom Requests, active exclusive Flash holds, and the distinct Flash versus Deposit states. It does not invent calendar scheduling, CRM or automatic client messaging.
 
 ### Onboarding
-Short structured questionnaire should generate the initial site rather than open a blank page builder.
+Issue #15 proposes a structured shortest path: identity (name, city, styles), genuine permitted portfolio, explicit Books confirmation, a true client action, preview, then explicit publication. Flash and Custom Deposit configuration are conditional, not universal blockers.
 
-Candidate inputs:
-- name
-- city
-- styles
-- price floor
-- books status
-- deposit amount
-- policies
-- portfolio / flash media
+**Publication is not automatically activation.** A truthful Books-CLOSED/no-Flash informational page may be public, but does not count as Issue #11 activation without a real Custom Request or eligible Flash path.
 
-AI may assist with bounded draft copy such as bio, booking instructions, FAQs and SEO text.
+AI drafts are optional, fact-constrained, artist-reviewed, and never auto-published. Follow the [Issue #15 contract](tattoo-onboarding-ai-artist-home.md) for required/optional fields, conditional Flash deposit/policy gates, Artist Home state/actions, and M3 validation questions.
 
 ## Success metrics
 
