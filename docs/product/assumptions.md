@@ -17,3 +17,4 @@
 | Custom domain is a universal Tattoo P0 requirement | **Not supported** | TAT-02 cares; evidence is mixed; keep out of universal P0 pending prototype tests |
 | Public calendar / slot picker is required | **Rejected for V1** | Tattoo and Events evidence favors requests/manual confirmation |
 | Generic visual templates are acceptable | **Rejected** | Tattoo + Events participants explicitly reject generic/template/AI-looking presentation |
+| Curated themes can create enough artist individuality without a freeform page builder | Medium | Issue #13 product hypothesis; test materially different M3 compositions with tattoo artists |
