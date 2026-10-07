@@ -174,3 +174,102 @@ The following matrix must be completed in a browser-enabled environment **before
 ---
 
 *Research stance: preserve Founder intent; separate directly retrieved site structure, independently verified standards, unobserved behaviors, and original Tessnova design hypotheses.*
+
+
+## 9. Live browser verification — 2026-10-07
+
+**Outcome: BLOCKED — reference homepage fails with a client-side exception in this cloud browser.** This is a new browser attempt, not completion of §7. Keep Issue #10 **OPEN**.
+
+### 9.1 Environment and methodology
+
+- Live repository precheck: `main = 69219a01a0a9dd1c0677264b0d588bc012755a8d`, matching the task's starting SHA.
+- Read `AGENTS.md`, Issue #10 and its comments, this reference, roadmap, approved Tattoo V1 scope and `NOT_NOW.md`. No open PR was returned by the precheck.
+- Issue #37 is closed/completed. Its [Founder approval record](https://github.com/Nejo12/nova-platform/issues/37#issuecomment-6038145624) explicitly approves the design direction without asserting browser/accessibility/legal/usability verification. The [#10 gate record](https://github.com/Nejo12/nova-platform/issues/10#issuecomment-6038147242) identifies this as the remaining active M3 reference task. M4 remains unauthorized.
+- Attempt: **2026-10-07, 12:53–12:55 UTC / 14:53–14:55 Europe/Berlin**. Site-origin console error timestamps were `12:53:54.047Z` on initial opening and `12:54:05.103Z` after the single reload.
+- Browser: remote cloud **Chrome**, CDP connection; exact browser version and remote operating system **not verified**. This is not the Founder's local Mac browser.
+- Initial viewport was the browser default, **not verified as 1440 × 900 CSS pixels**. A viewport screenshot was inspected, but image dimensions are not treated as a verified CSS viewport or device profile. The requested desktop/mobile/tablet emulations were not completed.
+- Reduced-motion preference: **not verified or changed**. A read-only environment-metadata query failed because this browser interface did not expose `navigator`; it supplied no usable metadata. Do not confuse that inspection failure with the site's separately captured exception.
+- Target: fresh homepage at https://www.tesnova.com/, followed by **one reload**. Read the accessibility tree, inspected a screenshot and read the browser console log. No forms were submitted, source downloaded, assets reused or site code modified.
+
+**Observed browser result:** both the initial load and reload exposed only an application-error heading instead of the usable homepage. The inspected screenshot likewise showed a white page with the client-side exception message.
+
+**Observed console result:** a site-origin `TypeError: Cannot read properties of null (reading 'getExtension')` was recorded on both attempts, attributed to a site-served layout script. A separate browser-extension metadata error also appeared; it is not attributed to Tesnova.com. No source code was fetched to diagnose either error.
+
+This is **not** the earlier `ERR_BLOCKED_BY_ADMINISTRATOR` outcome, and no evidence identifies it as a bot challenge. It does not establish that the site is broken for all visitors. Root cause, graphics support and behavior in another browser remain unknown.
+
+### 9.2 Desktop pointer / hover observations
+
+**Blocked, not tested:** no usable hero, header, CTA, link, project card or image target was exposed. Default/hover entry/hover exit, geometry, target displacement, feedback type, perceived duration and rapid mouse-in/out recovery cannot be reported. No reference cursor treatment was verified.
+
+### 9.3 Scroll / entrance observations
+
+**Blocked, not tested:** hero, services, UI/development, projects, pricing, testimonials/company and footer could not be traversed. First/repeated reveals, stagger, pinning, parallax, background rhythm, section overlap, rapid scrolling and layout stability remain unverified. Error-page stillness is not evidence that the reference has no motion.
+
+### 9.4 Navigation / transition observations
+
+**Blocked, not tested:** homepage navigation and CTAs were unavailable. Back/Forward restoration, rapid navigation, transition interruption, preloaders and focus transfer were not exercised as reference-site interactions. Reloading the error page is not a successful navigation audit.
+
+### 9.5 Keyboard / focus observations
+
+**Blocked, not tested:** the error heading is not the reference's intended control set. Tab/Shift+Tab, Enter, Space, Escape, focus visibility/order, hover-only information, overlay focus trapping and restoration remain unverified. No WCAG conformance conclusion follows.
+
+### 9.6 Mobile — 375 × 812
+
+**Not run:** no verified mobile emulation or touch pass. Menu, hero, projects, CTAs/forms, sticky elements, scaling, overflow, clipping, crowding and narrow-screen motion remain unverified. The default-browser error is not a mobile result.
+
+### 9.7 Tablet — 768 × 1024
+
+**Not run:** no verified tablet emulation. Intermediate composition, portrait navigation, grids, spacing, typography and hover assumptions remain unverified.
+
+### 9.8 Reduced-motion result
+
+**Not run:** `prefers-reduced-motion: reduce` was not enabled and verified. There is no evidence about what changes, stops or persists under that preference, nor about availability of essential content in that mode. Do not claim that the reference ignores reduced motion.
+
+### 9.9 Performance implications
+
+**Observed:** the attempted homepage did not remain usable in this browser and produced the same site-origin exception after reload.
+
+**Unverified:** media weight, repeated requests, scroll handlers, animation CPU cost, idle motion, layout-shift metrics, FPS, load timings and mobile performance. No Network/Performance trace or Lighthouse run was captured; cache state was not controlled, so neither attempt is a cold/warm benchmark.
+
+**Inference:** a runtime failure can prevent evaluation of the intended interaction layer. This evidence does not identify a specific animation technology or prove an expensive effect caused the failure.
+
+**Tessnova recommendation:** decorative enhancement should fail without removing core artwork context, truthful status, navigation or transaction explanations. This is a design resilience requirement, not a selection of M4 architecture.
+
+### 9.10 Observed fact versus inference
+
+| Category | Statement | Evidence / limit |
+| --- | --- | --- |
+| Observed fact | The homepage displayed a client-side application-error heading on opening and after one reload. | Live accessibility snapshots; screenshot inspected after reload. Limited to this cloud browser. |
+| Observed fact | Both attempts logged a site-origin null `getExtension` TypeError. | Timestamped console entries; no source inspection or root-cause diagnosis. |
+| Observed fact | #37 is completed with explicit Founder design approval; #10 remains open; M4 is not approved. | Live GitHub issue/comment records and roadmap at the stated base. |
+| Inference | The runtime error prevents assessment of intended reference interactions in this session. | The intended homepage was unavailable; not a claim about every browser. |
+| Unverified hypothesis | A particular graphics capability or decorative effect might explain the error. | **Not established.** Do not turn the error text into an implementation finding. |
+| Tessnova recommendation | Essential content and state meaning must survive failure of decorative enhancement. | Original product-specific resilience principle; not a behavior observed on the reference. |
+
+### 9.11 Recommendation changes and Tattoo product cross-check
+
+Preserve §§2–6 as **original proposed Tessnova principles**, not runtime findings. No hover, timing, responsiveness or motion hypothesis has been validated or disproved by this failed load. Add the resilience recommendation above; do not change candidate timings or approve an implementation.
+
+| Approved Tattoo rule | Consequence for proposed motion / failure handling |
+| --- | --- |
+| Books is request-intake status, never a public slot calendar. | OPEN/CLOSED and its explanation remain immediately legible without decorative effects. |
+| Custom Request is qualification; ACCEPTED is not an appointment. | Success feedback must state the actual request outcome and preserve entered/private data. |
+| Flash is scarce; one design cannot have two confirmed customers. | Animation cannot grant a claim, imply inventory, or override authoritative state. |
+| HOLD is temporary and exclusive before payment. | Hold/expiry text remains explicit; animation completion never establishes ownership. |
+| RESERVED follows a valid reservation; BOOKED requires independent appointment confirmation. | Distinct text survives transitions; no reservation celebration implies an appointment. |
+| Deposit meaning, actual amount/currency and policy precede payment. | No reveal, loading flourish or failure fallback conceals money/policy meaning. |
+| Private references stay private; public media requires permission. | No transition frame/fallback exposes private media; public removal does not release Flash or change payment state. |
+
+Ownership stays unchanged: Nova UI generic accessible primitives/tokens; Tessnova Tattoo state behavior and storefront composition. Storefront-only editorial exploration remains restrained; operational, money and permission surfaces stay task-first. Existing rejections of cursor replacement, heavy parallax, scroll hijacking and motion-only status remain **Tessnova recommendations**, not claims that Tesnova.com uses those patterns.
+
+**Historical correction:** §1.C remains accurate as the record of the earlier attempt. This attempt reached a different failure state. It does not establish that the site's design changed since the indexed retrieval or previous research.
+
+### 9.12 Final Issue #10 closure assessment
+
+**BLOCKED — material live interaction evidence remains unavailable. Do not close #10.**
+
+Existing worthwhile-principle, rejection, original motion-language, accessibility/reduced-motion and ownership recommendations are documented. The required live desktop, scroll, navigation, keyboard, mobile, tablet, reduced-motion and performance observations are still missing. A documentation merge cannot substitute for them or authorize M4.
+
+**Continuation:** run the existing §7 matrix and the requested interaction checklist in a browser where the reference renders successfully, recording browser/version/OS, exact CSS viewport, reduced-motion state, timestamps and behavior evidence. The Founder or Claude Code Agent on the Founder's Mac is the existing repository-approved route for that independent session. If the site also fails there, record that environment-specific result rather than inventing observations. No need to repeat completed repository documentation work.
+
+This update references #10 without automatic closure. Founder review/merge remains manual; Figma, production code and phase gates are unchanged.
