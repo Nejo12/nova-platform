@@ -16,9 +16,9 @@ Do not jump from a broad request directly to code.
 
 ## Current gate
 
-M2 Product Definition is active.
+M0–M3 are complete. M4 Technical Architecture planning is active.
 
-Production implementation is not authorized until the Founder approves the M2 closure gate. Verify live roadmap state before every implementation request.
+Production implementation is not authorized. M5 remains gated. Verify live roadmap Issue #1 before every implementation request.
 
 ## Local implementation workflow
 
@@ -46,7 +46,7 @@ Do not:
 - build generic capability/rules engines;
 - add Tattoo domain components to Nova UI;
 - modify Klinnova or Slotnova unless explicitly scoped;
-- choose M4 technical architecture during M2 without a blocking product reason.
+- execute M4 technical architecture as production implementation, or treat an unapproved ADR/option as a selected stack.
 
 ## Skills / execution techniques
 

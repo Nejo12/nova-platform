@@ -3,7 +3,7 @@
 **Status:** Approved M2 scope boundary; established after Founder-approved Issue #17 closure  
 **Source of truth:** [Tattoo V1 consolidated P0/P1/postponed specification](docs/product/tattoo-v1-approved-scope.md), especially [§5 — Postponed / explicit V1 non-goals](docs/product/tattoo-v1-approved-scope.md#5-postponed--explicit-v1-non-goals)  
 **Governance trigger:** [Issue #20, Trigger B](https://github.com/Nejo12/nova-platform/issues/20)  
-**Phase:** M3 Product Design is active. M4 architecture and production implementation require their own gates.
+**Phase:** M0–M3 complete. M4 Technical Architecture planning is active (Founder 2026-10-10). Production implementation and M5 remain gated.
 
 ## Rule
 
@@ -49,8 +49,8 @@ A P1 candidate is **not** an approved implementation instruction. A postponed ca
 
 ## Phase and change control
 
-1. **M3:** Use canonical [Tessnova Figma](https://www.figma.com/design/OQmqaRuqB7qE5X3LTJsq7J/) for approved Tattoo visual/interaction design and user-tested prototypes, preserving its source-of-truth role. [Issue #10](https://github.com/Nejo12/nova-platform/issues/10) remains a visual-craft reference task, not permission to copy Tesnova.com.
-2. **M4:** Architecture/CI/payment/security design may begin only when separately authorized after sufficient M3 product design. No production implementation automatically follows from M2 approval.
+1. **M3:** Canonical [Tessnova Figma](https://www.figma.com/design/OQmqaRuqB7qE5X3LTJsq7J/) remains source of truth for approved Tattoo visual/interaction design. [Issue #10](https://github.com/Nejo12/nova-platform/issues/10) is a closed visual-craft reference record, not permission to copy Tesnova.com.
+2. **M4:** Architecture planning is Founder-authorized as of 2026-10-10. CI/payment/security **decisions** still require documented review and Founder approval. No production implementation automatically follows from M3 closure or from opening M4.
 3. **M5:** MVP Alpha implementation remains separately gated. No agent or PR may bypass Founder-controlled approvals.
 4. **Issue #20:** Trigger B is satisfied when this file is Founder-merged. **Leave Issue #20 open** for Trigger C (real CI/ruleset in M4), D (pre-M5 governance), E (collaborators/CODEOWNERS), and F (ADR index when complexity warrants it).
 5. **Changes to scope:** Cite new evidence, state the exact affected approved contract, create/identify a bounded issue, request explicit Founder approval and update this file and the authoritative spec through a reviewed PR. Never silently reconcile a conflict or infer approval from a chat, branch or agent report.

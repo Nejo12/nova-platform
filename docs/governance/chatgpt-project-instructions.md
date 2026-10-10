@@ -38,17 +38,17 @@ Repository:
 
 Verify live roadmap first.
 
-At setup time:
+Live roadmap (Issue #1, Founder 2026-10-10):
 - M0 complete
 - M1 complete
-- M2 Product Definition active
+- M2 Product Definition complete (#17)
+- M3 Product Design complete
+- M4 Technical Architecture active for **planning only**
+- M5+ not authorized
 
-No production implementation until M2 closure is explicitly Founder-approved.
+No production implementation, framework setup, provider configuration or deployments during M4 planning. Draft ADRs and architecture options are not approved stacks until the Founder explicitly accepts them.
 
-M2 issues:
-#11 → #12 → #13 → #14 → #15 → #16 → #17.
-
-Issue #10 is an M3 design-reference task.
+Historical M2 issues #11 → #12 → #13 → #14 → #15 → #16 → #17 are complete. Issue #10 is a closed M3 design-reference record.
 
 ## PRODUCT GUARDRAILS
 

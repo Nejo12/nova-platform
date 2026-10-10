@@ -56,25 +56,27 @@ Normal substantial-change workflow:
 
 ## Current phase gate
 
-At the time these rules were established:
+Verify live GitHub Issue #1 before acting. As of the Founder's 2026-10-10 decision:
 
 - M0 — Foundation: complete
 - M1 — Market Validation: complete
-- M2 — Product Definition: active
-- M3+ — not yet active
+- M2 — Product Definition: complete (Founder-approved via #17)
+- M3 — Product Design: complete (Founder-approved 2026-10-10)
+- M4 — Technical Architecture: **active for planning only** (Founder-authorized 2026-10-10)
+- M5+ — not authorized
 
-**No production implementation begins until M2 is explicitly approved through the M2 closure gate.**
+**Production implementation remains prohibited.** M4 covers architectural investigation, option assessment, ADR proposals, bounded documentation/issue planning and necessary governance alignment. It does **not** authorize production code, framework setup, production infrastructure, database/payment/provider configuration, production secrets, deployments, or M5 work.
 
-Current M2 work is tracked in Issues #11–#17. Always verify the live roadmap before acting.
+Do not treat a draft ADR, architecture option or planning note as an approved implementation decision until the Founder explicitly accepts it.
 
-Do not select:
+Do not execute as production systems during M4 planning:
 - production framework;
 - production database schema;
 - payment-provider architecture;
 - authentication architecture;
 - deployment architecture;
 
-during M2 unless a product-definition decision genuinely requires it.
+Documented options may be proposed for Founder review. Historical M2 issues #11–#17 remain the completed product-definition record.
 
 ## Accepted product decisions
 
@@ -105,7 +107,7 @@ Hard product invariant to preserve:
 
 > One scarce flash design must never have two confirmed customers.
 
-These are M2 product semantics until finalized; do not prematurely convert them into a production schema.
+These are Founder-approved Tattoo V1 product semantics; do not prematurely convert them into a production schema during M4 planning.
 
 ## Architecture rules
 
