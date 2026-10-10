@@ -1,10 +1,10 @@
 # Design Reference — Tesnova.com · M3 Interaction-Quality Study
 
 **Reference:** https://www.tesnova.com/  
-**Status:** M3 research and original Tessnova design-direction proposal; **live interaction verification still pending**  
+**Status:** M3 research and original Tessnova design-direction proposal; **live interaction matrix recorded 2026-10-10** in Cursor cloud Chrome and Playwright Chrome. GitHub [Issue #10](https://github.com/Nejo12/nova-platform/issues/10) is already **Founder-closed**; this file no longer claims verification is pending. M3 phase closure and M4 remain Founder-gated.  
 **Source of truth:** This document is the repository reference study for [Issue #10](https://github.com/Nejo12/nova-platform/issues/10).  
 **Originally recorded:** 2026-10-06  
-**Study date:** 2026-10-06  
+**Study date:** 2026-10-06; live browser addendum 2026-10-10  
 **Purpose:** Carry the Founder's quality benchmark into Tattoo V1 design **without copying** the external site's code, visual identity, content, photography, compositions or layouts.
 
 ## 1. Evidence provenance and confidence
@@ -37,7 +37,7 @@ This supports a **reported progressive information hierarchy and repeated contex
 
 A desktop Chromium/Playwright attempt to navigate the external site returned **`net::ERR_BLOCKED_BY_ADMINISTRATOR`**. Consequently the following remain **UNVERIFIED** in this environment: cursor/pointer implementation, hover animation and exit behavior, actual scroll triggers, animation duration and easing, responsiveness at 375/768/1440px, keyboard/focus order, reduced-motion behavior, accessibility quality, CLS, frame timing, media weight and network performance.
 
-Do **not** describe any of these as observed facts or claim that the reference meets accessibility/performance standards. Repeat this test in a browser-enabled environment (Founder/Claude Code Agent on Mac or Work browser) before marking Issue #10's observation portion complete. A screenshot of a static marketing asset is **not** equivalent to a measured interaction.
+Do **not** describe the 2026-10-06 blocked attempt as observed interaction quality. A later browser-enabled session is recorded in §10. A screenshot of a static marketing asset is **not** equivalent to a measured interaction. This section remains the historical blocked-attempt record.
 
 **D. Accessibility authorities for proposed Tessnova requirements (not endorsements of the reference)**
 
@@ -140,9 +140,9 @@ This is a product-specific **M3 recommendation**. None of these choices approves
 - **Pause controls:** any qualifying automatic animation follows the appropriate WCAG 2.2.2 requirement. Essential progress feedback can remain static.
 - **User testing:** test real German client/artist wording and comprehension; English authored portfolio does not create an unsupported English system UI.
 
-## 7. Required live-reference browser verification — OPEN
+## 7. Required live-reference browser verification — RECORDED 2026-10-10
 
-The following matrix must be completed in a browser-enabled environment **before Issue #10 is considered fully verified**. Capture timestamp, viewport and evidence; label the site itself as the **external reference**.
+The matrix below was the required observational checklist. Results from the 2026-10-10 Cursor/Playwright session are in §10. Capture timestamp, viewport and evidence; label the site itself as the **external reference**. Do not treat GitHub issue closure as a substitute for this record.
 
 | Scenario | Minimum evidence to capture | Pass/fail question |
 | --- | --- | --- |
@@ -157,7 +157,7 @@ The following matrix must be completed in a browser-enabled environment **before
 
 **Verification owner/routing:** Founder or Claude Code Agent on Mac using a real browser, or a browser-enabled Work session, **only for read-only observation**. Do not upload/download/copy external proprietary source assets. Capture notes/video of behavior for internal evidence with reference attribution and avoid reusing external visuals in product design.
 
-**Closure criterion:** if the Founder accepts the design principles **without** a runtime audit, Issue #10 can be explicitly scoped to a principles-only study by a new Founder decision; otherwise leave #10 open until this observational matrix is completed. A documentation PR with this proposed motion language does **not** imply that its reference behaviors were verified.
+**Closure criterion:** GitHub Issue #10 was Founder-closed on 2026-10-07 while this document still required a runtime matrix. The 2026-10-10 session records that matrix with limitations. A documentation PR still does **not** approve M3 closure or M4. If the Founder wants an additional Mac-native pass, that is a new explicit request, not an implied reopen.
 
 ## 8. Founder review and M3 follow-on
 
@@ -166,8 +166,8 @@ The following matrix must be completed in a browser-enabled environment **before
 - [ ] Confirm storefront-versus-product separation and no import of agency site content/identity.
 - [ ] Approve *testing* the candidate motion range—not hard-coded production tokens.
 - [ ] Confirm accessibility/reduced-motion, privacy and paid Flash semantics are gating design constraints.
-- [ ] Keep live reference interaction verification explicit and unfinished, not mislabeled “studied and observed.”
-- [ ] Keep #10 open until the live verification matrix or an explicit narrower Founder definition resolves the evidence gap.
+- [x] Live reference interaction verification recorded on 2026-10-10 (see §10); remaining gaps are labeled as limitations, not as successful tests.
+- [x] GitHub #10 is already Founder-closed; this document no longer instructs agents to keep it open. Do not auto-reopen or declare M3 approved.
 
 **M3 deliverables after this reference:** user-flow and low-fidelity Tattoo prototype work in the canonical Tessnova Figma; independent artist/client research; visual theme exploration; approved interaction-spec and accessible states. No M4/production implementation is authorized.
 
@@ -273,3 +273,183 @@ Existing worthwhile-principle, rejection, original motion-language, accessibilit
 **Continuation:** run the existing §7 matrix and the requested interaction checklist in a browser where the reference renders successfully, recording browser/version/OS, exact CSS viewport, reduced-motion state, timestamps and behavior evidence. The Founder or Claude Code Agent on the Founder's Mac is the existing repository-approved route for that independent session. If the site also fails there, record that environment-specific result rather than inventing observations. No need to repeat completed repository documentation work.
 
 This update references #10 without automatic closure. Founder review/merge remains manual; Figma, production code and phase gates are unchanged.
+
+§9 remains the 2026-10-07 blocked-session record. GitHub later closed #10 on that merge. §10 is the later successful homepage observation and does not rewrite the blocked-session facts.
+
+
+## 10. Live browser verification — 2026-10-10
+
+**Outcome: HOMEPAGE RENDERED — §7 observational matrix recorded with labeled limitations.** This is a new browser attempt after the 2026-10-07 client-side exception. It is **not** M3 approval, **not** a WCAG/performance certification of Tesnova.com, and **not** permission to copy the site.
+
+### 10.1 Environment and methodology
+
+- Live repository precheck: `main = 54431144a95925ae5df8a182a8566126664b4271` (merge of PR #41).
+- Read `AGENTS.md`, Issue #1, Issue #10 (state **CLOSED**, Founder-closed 2026-10-07T13:03:12Z), Issue #10 comment requiring the runtime matrix, Issue #37 (CLOSED, Founder design-direction approval), this reference, and `docs/roadmap/roadmap.md`.
+- **Discrepancy observed before this session:** GitHub #10 closed; this file and Issue #1 still described #10 as open and verification as pending/blocked. No issue was auto-reopened.
+- Attempt window: **2026-10-10, approximately 20:24–20:29 UTC / 22:24–22:29 Europe/Berlin**.
+- Browsers (read-only observation):
+  1. Cursor cloud Chromium/Electron. `navigator.userAgent` reported `Cursor/3.22.12 Chrome/148.0.7778.280 Electron/42.10.0` on a Macintosh UA string. This is not the Founder's local Mac browser.
+  2. Playwright Chromium. `navigator.userAgent` reported `Chrome/155.0.0.0` on a Macintosh UA string.
+- Exact remote OS patch level: **not independently verified** beyond those UA strings.
+- No forms submitted. Chat widget suggested-replies were not used. No source downloaded for reuse. No Tesnova assets copied into the repository.
+
+Verified CSS viewports via `window.innerWidth` / `innerHeight` (not screenshot pixel dimensions):
+
+| Intended profile | Playwright measured | Cursor cloud measured |
+| --- | --- | --- |
+| Desktop 1440×900 | 1440×900 (`devicePixelRatio` 1) | 1440×900 (`devicePixelRatio` 1) after `Emulation.setDeviceMetricsOverride` |
+| Mobile 375×812 | 375×812 | 375×812 (`devicePixelRatio` 2) |
+| Tablet 768×1024 | 768×1024 | **Not reliably held.** After the tablet override, Cursor reported 1188×1584. Tablet layout numbers below are Playwright-only. |
+
+Default `prefers-reduced-motion`: **no-preference** (`matchMedia` false) until explicitly emulated.
+
+### 10.2 Desktop pointer / hover — 1440×900
+
+**Observed:**
+
+- `html` and `body` computed `cursor` was `auto`. Interactive links/buttons used native `pointer`. No custom cursor graphic, cursor-trail node, or pointer-replacement overlay was found in the inspected cursor-related class/id sample.
+- Hero “See our work”: default color `rgb(255, 150, 33)` on a transparent background; 1px solid orange border; `transform: none`; size 166.48×50 CSS px. While hovered, color became `rgb(255, 255, 255)`; size and transform unchanged. After leaving the control, color returned to `rgb(255, 150, 33)` at the same size.
+- First project card while hovered: `box-shadow` present (`0 20px 25px -5px` / `0 8px 10px -6px` at 10% black); `transform: none`; transition duration `0.3s`. Card image `transform` remained `none`.
+- `matchMedia('(hover: hover)')` was true in Playwright.
+
+**Limitations:** no screen recording; hover recovery was sampled once, not as a high-frequency mouse-in/out stress. Perceived duration was not measured with a timer. This is not a claim about every control on the site.
+
+### 10.3 Scroll / entrance — 1440×900
+
+**Observed:**
+
+- Document `scrollHeight` was about 12822–13062 CSS px at desktop. `window.scrollTo` reached the requested Y values (0, 900, 2500, 6500, max, back to 0). Scroll position was not hijacked to a different value in this sample.
+- 33 elements matched `scroll-fade` / `scroll-slide` class names. Count of those with a `visible` class: 8 at Y=0 and Y=900 and Y=2500; 16 at Y=6500; 26 at the bottom; 28 after returning to top (reveals did not all re-hide).
+- Named running CSS animations at default motion included `neon-gradient-move` (~4000 ms, linear), `pulse-glow` (~2000 ms), and `float` (~6000 ms), plus some `CSSTransition` entries. Those named animations remained running while scrolling.
+- Hero heading, supporting copy and the two primary CTAs were present in the accessibility tree without requiring a scroll trigger.
+- Testimonials region included cards whose bounding boxes extended far past the viewport width (sample right edges beyond 3900 CSS px), consistent with a horizontal overflowing testimonial row rather than a fully wrapped grid.
+
+**Limitations:** easing curves and exact entrance distances were not measured. Pinning/parallax were not isolated with DevTools layers. Rapid-fling scroll was not tested.
+
+### 10.4 Navigation / transitions
+
+**Observed:**
+
+- `GET https://www.tesnova.com/showcase` loaded `https://www.tesnova.com/showcase` with title starting `Showcase | Tesnova Solutions`.
+- Playwright `page.goBack()` returned to `https://www.tesnova.com/` with the original homepage title.
+- Opening the bubble menu (`Toggle menu`, `aria-pressed="true"`) showed a full-viewport overlay (`.bubble-menu-items`, `aria-hidden="false"`) listing Home / Projects / Estimation / Pitch Project / Book A Call and further items.
+- One `Escape` keypress while that overlay was open did **not** close it (`aria-pressed` remained `"true"`, overlay `display: flex`). A subsequent click on the toggle was intercepted by the overlay (`subtree intercepts pointer events`). A programmatic `click()` on the toggle also left the overlay open in that sample.
+- Header computed style included `transition-all` with duration `1500ms`. Interruptibility of that transition was not separately timed.
+
+**Limitations:** in-page hash/section-link smoothness was not separately measured. Showcase internal project pages were not opened. Overlay close via a visible overlay item was not completed because the overlay intercepted the toggle and Escape failed in this sample.
+
+### 10.5 Keyboard / focus
+
+**Observed native Tab order (Playwright, desktop, first 13 focused nodes after load):**
+
+1. Logo link `/` — outline `rgb(0, 95, 204) auto 1px`, in view.
+2. “Free Consultation” `/book-a-call` — outline style `none`.
+3. Left-rail home `/` — native blue auto outline, in view.
+4–7. Facebook, Instagram, TikTok, LinkedIn — orange auto outlines, in view.
+8. “Toggle menu” — native blue auto outline.
+9. “Toggle theme” — `rgb(23, 23, 23) auto 3px`.
+10. Email `mailto:` — native blue auto outline.
+11. “See our work” — outline style `none`.
+12. “Book a 20-min call” — outline style `none`.
+13. “Contact Us→” — outline style `none`, **not in view** at that moment.
+
+Shift+Tab from item 13 returned to “Book a 20-min call”. Escape on that focused CTA did not move focus (no overlay was open in that later sample).
+
+**Limitations:** this is not a complete focus-order audit of the whole page, skip-link check, screen-reader pass, or WCAG conformance result. Several primary CTAs had `outline-style: none` while focused; whether a non-outline focus treatment remained visible was not visually confirmed beyond computed style.
+
+### 10.6 Mobile — 375×812
+
+**Observed (Playwright numbers):**
+
+- `innerWidth` 375, `innerHeight` 812. “See our work” geometry: x=8, width=359, height=50 (full-width stacked treatment versus the 166 CSS px desktop width).
+- `documentElement.scrollWidth` 417 versus 375 (`overflow-x: hidden` on the root). Horizontal overflow existed in the layout measurement even if clipped.
+- Toggle-menu control remained in the tree. Hero copy and both primary CTAs remained in the accessibility tree.
+- Touch-specific gesture paths were **not** exercised (no tap-hold, swipe, or pinch). Hover-only behavior was not re-tested at this width.
+
+**Cursor cloud:** CSS viewport 375×812 was reported; a screenshot is not treated as a CSS-pixel proof of composition. No Tesnova screenshot is stored in the repository.
+
+### 10.7 Tablet — 768×1024
+
+**Observed (Playwright only):**
+
+- `innerWidth` 768, `innerHeight` 1024. CTAs remained side-by-side (same Y=796; widths 166 and 204). Not stacked.
+- `scrollWidth` 966 (`overflowX` true). Page `scrollHeight` 16919 at this width.
+- Toggle-menu control still present.
+
+**Cursor cloud tablet emulation did not hold** the requested 768×1024 CSS size, so no Cursor tablet layout claim is made.
+
+### 10.8 Reduced motion
+
+**Observed after `prefers-reduced-motion: reduce` and homepage reload:**
+
+- Playwright: `matchMedia` true; named `neon-gradient-move`, `pulse-glow`, and `float` animations were **absent**. `document.getAnimations()` reported 1 `CSSTransition`. Hero heading and “See our work” remained present.
+- Cursor cloud: `matchMedia` true; `getAnimations()` reported 7 `CSSTransition` and no named neon/pulse/float animations.
+- A full-viewport `canvas` remained present after the Playwright reduced-motion reload (1440×900 backing store). Whether the WebGL loop continued to paint was **not** measured.
+
+**Limitations:** OS-level preference (not only DevTools emulation) was not used. Hover/scroll were not fully re-run under reduced motion. No claim that every decorative effect on the site honors the media query.
+
+### 10.9 Performance implications
+
+**Observed request/structure facts, not Lighthouse scores:**
+
+- Playwright network log for the homepage included the HTML document, multiple `/_next/static` CSS/JS chunks, six `.woff2` fonts, Google Tag Manager `AW-18161295984`, Vercel insights, Prismic API/media, and a Tawk.to embed (`embed.tawk.to` plus follow-on widget scripts/CSS).
+- Two sampled Prismic image responses were `image/avif` with `content-length` **31207** and **24381** bytes (URLs requested with large `w=` hints; transferred bytes are the observed sizes, not decoded bitmap size).
+- At one desktop sample: 34 `document.images`, 50 `document.scripts`, one **WebGL2** canvas sized to the viewport (`pointer-events: none`), no `video` elements.
+- Chat embed caused the document title to flicker to `1 new message` during the session.
+- `Performance.getMetrics` in the Cursor cloud tab returned an empty metrics array. **No FPS, TTI, CLS, or Lighthouse numbers were captured.**
+
+**Inference (not a measurement):** a full-viewport WebGL2 canvas plus looping CSS heading/glow/float animations plus a third-party chat embed is a plausible mid-range cost and a plausible explanation for the earlier `getExtension` failure in a different cloud session. That causal link is **not established**.
+
+**Tessnova recommendation (product-specific, not a copy of this stack):** do not take a full-viewport WebGL background, looping heading gradients, 1500 ms `transition-all` headers, or third-party chat title mutation into Tattoo UI. Keep the existing rejections of cursor replacement, heavy parallax, scroll hijack, and motion-only status.
+
+### 10.10 Observed fact versus inference versus hypothesis
+
+| Category | Statement | Evidence / limit |
+| --- | --- | --- |
+| Observed fact | Homepage rendered usable content in both browsers on 2026-10-10; 2026-10-07 session did not. | Accessibility snapshots; UA/viewport `evaluate`; contrast with §9. |
+| Observed fact | No custom global cursor replacement was found; hover on sampled CTA/card changed color or shadow without moving the target. | Computed style before/during/after hover. |
+| Observed fact | Default motion included looping named CSS animations; reduced-motion emulation removed those named animations. | `document.getAnimations()` before vs after emulation+reload. |
+| Observed fact | Tab moved through header/hero controls; some focused CTAs had `outline-style: none`; Escape did not dismiss the open bubble overlay. | Playwright keyboard sequence and overlay inspect. |
+| Observed fact | Playwright mobile stacked the sampled CTA full-width; tablet kept CTAs in a row and showed horizontal `scrollWidth` overflow. | Geometry `evaluate`. |
+| Observed fact | GitHub #10 is CLOSED; this document previously said keep it OPEN. | Live `gh issue view` vs §9.12. |
+| Inference | Decorative enhancement on the reference is real and can be expensive. | Structure/network/animation counts; not a timed budget. |
+| Unverified hypothesis | WebGL/`getExtension` caused the 2026-10-07 crash. | **Not established.** |
+| Tessnova recommendation | Borrow craft threshold (legible hierarchy, recoverable hover, reduced-motion CSS halt) without copying identity, WebGL, overlay Escape failure, or agency CTAs. | Original product principle. |
+
+### 10.11 Tattoo product cross-check
+
+Preserve §§2–6 as **original Tessnova principles**. Runtime evidence did not authorize copying Tesnova.com. It also did not overturn approved Tattoo semantics.
+
+| Approved Tattoo rule | Consequence after this observation |
+| --- | --- |
+| Books is request-intake status, never a public slot calendar. | Do not import agency “Book a 20-min call” / “Pitch a Project” funnels. OPEN/CLOSED must stay immediately textual. |
+| Custom Request is qualification; ACCEPTED is not an appointment. | Overlay/chat patterns that steal focus or ignore Escape are unsafe on request/deposit surfaces. |
+| Flash is scarce; one design cannot have two confirmed customers. | Looping decorative motion and testimonial marquees must not carry inventory meaning. |
+| HOLD is temporary exclusive pending payment. | Reference hover polish is acceptable only as supplementary feedback; expiry remains text. |
+| RESERVED / BOOKED are distinct. | Navigation transitions on the reference were ordinary route changes; they do not justify animated ownership claims. |
+| Deposit amount/currency/policy precede payment. | Pricing-guide theatre on the reference is excluded as a template. |
+| Private references stay private; public media requires permission. | Do not reuse Tesnova/Prismic imagery or chat-widget behavior. |
+| Reduced motion and visible keyboard focus are Tessnova constraints regardless of the reference. | The reference *did* halt named CSS animations under emulation; several focused CTAs still used `outline-style: none`. Tessnova must not copy that focus gap onto money/scarcity controls. |
+
+Ownership unchanged: Nova UI generic primitives/tokens; Tessnova Tattoo storefront composition and state behavior.
+
+### 10.12 Issue #10 / M3 closure assessment
+
+**Runtime matrix: recorded. M3 phase: not approved by this PR. Do not merge to `main` automatically. Do not auto-close or reopen issues.**
+
+| Item | Live state after this session |
+| --- | --- |
+| Issue #10 | Already **CLOSED** by Founder 2026-10-07. This session fills the evidence gap the closed issue and §9 still described as missing. |
+| Issue #37 | **CLOSED** with Founder design-direction approval. |
+| Issue #1 | **OPEN**; body still said M3 is active while #10 is open. That sentence is stale versus GitHub issue states. |
+| `AGENTS.md` | Still describes M2 as the current gate in the snapshot used for this work. Live GitHub #1 says M2 is complete and M3 is active. Surface, do not silently rewrite governance. |
+| M4 / production | Still unauthorized. |
+
+**Smallest recommended Founder actions after merge:**
+
+1. Keep #10 closed unless the Founder wants a further Mac-native pass.
+2. Edit Issue #1 so M3 is “active pending Founder M3 closure,” not “active because #10 is open.”
+3. Explicitly approve or deny **M3 closure**. This PR must not be read as that approval.
+4. Leave M4 unopened until that separate decision.
+
+No Figma edits, no production code, no copied Tesnova assets.
