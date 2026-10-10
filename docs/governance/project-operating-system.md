@@ -21,13 +21,13 @@ M0 Foundation             COMPLETE
         ↓
 M1 Market Validation      COMPLETE
         ↓
-M2 Product Definition     ACTIVE
+M2 Product Definition     COMPLETE
         ↓
-M3 Product Design
+M3 Product Design         COMPLETE
         ↓
-M4 Technical Architecture
+M4 Technical Architecture ACTIVE (planning only)
         ↓
-M5 MVP Alpha
+M5 MVP Alpha              NOT AUTHORIZED
         ↓
 M6 Private Beta
         ↓
@@ -79,11 +79,12 @@ Handoffs are navigation aids, never a substitute for checking live state.
 - later opportunity: Speakers;
 - Nova UI remains domain-agnostic shared UI;
 - Tesnova.com remains a permanent interaction-quality reference;
-- production implementation is blocked until M2 closure is Founder-approved.
+- M0–M3 are complete; M4 is active for architecture planning only (Founder 2026-10-10);
+- production implementation, M5, framework setup, provider configuration and deployments remain gated.
 
-## 6. M2 execution order
+## 6. Historical M2 execution order
 
-Open M2 issues were established as:
+M2 issues #11–#17 are complete. They were established as:
 
 - #11 — Tattoo ICP, JTBD and success metrics
 - #12 — Books, Flash and Custom Request semantics
@@ -93,9 +94,9 @@ Open M2 issues were established as:
 - #16 — Events paper stress-test
 - #17 — final P0/P1/postponed scope and M2 approval
 
-Execute in this order unless live evidence gives a documented reason to adjust it.
+That sequence is historical. Do not reopen completed M2 issues as active work.
 
-Issue #10 is intentionally an M3 design-reference issue and should not be treated as M2 implementation work.
+Issue #10 was an M3 design-reference issue (now Founder-closed) and was never M2 implementation work.
 
 ## 7. Product-definition laws
 

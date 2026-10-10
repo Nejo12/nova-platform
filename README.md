@@ -1,6 +1,6 @@
 # Tessnova / nova-platform
 
-**Status:** M2 — Product Definition  
+**Status:** M4 — Technical Architecture (planning only)  
 **Commercial brand:** Tessnova  
 **Engineering repository:** `nova-platform`  
 **Launch vertical:** Tattoo
@@ -11,10 +11,10 @@ Tessnova is a profession-specific professional-presence and client-acquisition p
 
 - M0 — Foundation: **complete**
 - M1 — Market Validation: **complete**
-- M2 — Product Definition: **active**
-- M3 — Product Design: waiting
-- M4 — Technical Architecture: waiting
-- M5 — MVP Alpha: waiting
+- M2 — Product Definition: **complete** (Founder-approved via #17)
+- M3 — Product Design: **complete** (Founder-approved 2026-10-10)
+- M4 — Technical Architecture: **active for planning only** (Founder-authorized 2026-10-10)
+- M5 — MVP Alpha: **not authorized**
 - M6 — Private Beta: waiting
 - M7 — Paid Beta: waiting
 
@@ -43,7 +43,7 @@ The broader platform/capability diagrams are conceptual destination models, not 
 
 ## Current gate
 
-Do **not** begin production implementation until M2 Product Definition is explicitly approved.
+Do **not** begin production implementation. M4 authorizes architecture investigation, option assessment, ADR proposals and bounded documentation only. M5 and production code, framework setup, provider configuration and deployments remain gated. The Founder merges every PR manually.
 
 ## Source of truth
 

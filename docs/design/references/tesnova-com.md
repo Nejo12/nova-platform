@@ -1,7 +1,7 @@
 # Design Reference — Tesnova.com · M3 Interaction-Quality Study
 
 **Reference:** https://www.tesnova.com/  
-**Status:** M3 research and original Tessnova design-direction proposal; **live interaction matrix recorded 2026-10-10** in Cursor cloud Chrome and Playwright Chrome. GitHub [Issue #10](https://github.com/Nejo12/nova-platform/issues/10) is already **Founder-closed**; this file no longer claims verification is pending. M3 phase closure and M4 remain Founder-gated.  
+**Status:** M3 research and original Tessnova design-direction proposal; **live interaction matrix recorded 2026-10-10**. GitHub [Issue #10](https://github.com/Nejo12/nova-platform/issues/10) is **Founder-closed**. Founder approved **M3 closure** and **M4 architecture planning** on 2026-10-10; production implementation remains gated.  
 **Source of truth:** This document is the repository reference study for [Issue #10](https://github.com/Nejo12/nova-platform/issues/10).  
 **Originally recorded:** 2026-10-06  
 **Study date:** 2026-10-06; live browser addendum 2026-10-10  
@@ -167,9 +167,10 @@ The matrix below was the required observational checklist. Results from the 2026
 - [ ] Approve *testing* the candidate motion range—not hard-coded production tokens.
 - [ ] Confirm accessibility/reduced-motion, privacy and paid Flash semantics are gating design constraints.
 - [x] Live reference interaction verification recorded on 2026-10-10 (see §10); remaining gaps are labeled as limitations, not as successful tests.
-- [x] GitHub #10 is already Founder-closed; this document no longer instructs agents to keep it open. Do not auto-reopen or declare M3 approved.
+- [x] GitHub #10 is already Founder-closed; this document no longer instructs agents to keep it open.
+- [x] Founder approved M3 closure and M4 architecture planning on 2026-10-10. Production implementation remains gated.
 
-**M3 deliverables after this reference:** user-flow and low-fidelity Tattoo prototype work in the canonical Tessnova Figma; independent artist/client research; visual theme exploration; approved interaction-spec and accessible states. No M4/production implementation is authorized.
+**M3 design-reference outcome:** user-flow and Tattoo prototype work proceeded in canonical Figma; live interaction observations are in §10. M4 planning is authorized; production implementation is not.
 
 ---
 
@@ -453,3 +454,5 @@ Ownership unchanged: Nova UI generic primitives/tokens; Tessnova Tattoo storefro
 4. Leave M4 unopened until that separate decision.
 
 No Figma edits, no production code, no copied Tesnova assets.
+
+**Later Founder decision (2026-10-10, after PR #42 merge into `main`):** Founder approved M3 closure and authorized M4 architecture planning. Issue #1 records that decision. The table above remains the in-session assessment from before that Founder action. Production implementation is still prohibited.

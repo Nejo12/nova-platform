@@ -7,7 +7,7 @@ Key non-negotiables:
 - live GitHub `main` and Founder-approved decisions are authoritative;
 - Founder performs every merge manually;
 - never push directly to `main`, merge, auto-merge or enable auto-merge;
-- M2 Product Definition currently gates production implementation — verify live roadmap state first;
+- M4 is active for architecture planning only; production implementation and M5 remain gated — verify live roadmap Issue #1 first;
 - Tattoo is the approved V1 vertical;
 - product-specific first; generalize only after a second real use case proves the same contract;
 - do not add speculative generic capability layers, vertical engines, workflow DSLs or a `vertical` schema field;
